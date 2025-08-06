@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffafa;
+    color: #2c3e50;
+  }
+  
+  header {
+    background-color: #d40000;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 5px solid #990000;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px solid #d40000;
+    background-color: #ffecec;
+    border-radius: 8px;
+  }
+  
+  section h2 {
+    color: #d40000;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  section p {
+    font-size: 1.05em;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .galeria-jogadores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .jogador {
+    text-align: center;
+    width: 130px;
+  }
+  
+  .jogador img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #d40000;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+  
+  .jogador p {
+    margin-top: 8px;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #d40000;
+  }
+  
+  footer {
+    background-color: #ffd6d6;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #990000;
+    border-top: 3px solid #d40000;
+  }
+  

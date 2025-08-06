@@ -1,0 +1,90 @@
+/* Fonte base e reset */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    color: #2c3e50;
+  }
+  
+  /* Cabeçalho com cores do Avaí */
+  header {
+    background-color: #0055aa;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid #003366;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Seções com borda lateral e fundo suave */
+  section {
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px solid #0055aa;
+    background-color: #e6f2ff;
+    border-radius: 8px;
+  }
+  
+  /* Títulos das seções */
+  section h2 {
+    color: #0055aa;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  /* Parágrafos */
+  section p {
+    font-size: 1.05em;
+    line-height: 1.6;
+  }
+  
+  /* Galeria horizontal de jogadores */
+  .galeria-jogadores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .jogador {
+    text-align: center;
+    width: 130px;
+  }
+  
+  .jogador img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #0055aa;
+    display: block;
+  }
+  
+  .jogador p {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #0055aa;
+  }
+  
+  /* Rodapé personalizado */
+  footer {
+    background-color: #d0e7ff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #003366;
+    border-top: 3px solid #0055aa;
+  }
+  

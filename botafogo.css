@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #1c1c1c;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid #444444;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px solid #000000;
+    background-color: #eeeeee;
+    border-radius: 8px;
+  }
+  
+  section h2 {
+    color: #000000;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 1.05em;
+    line-height: 1.6;
+  }
+  
+  .galeria-jogadores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .jogador {
+    text-align: center;
+    width: 130px;
+  }
+  
+  .jogador img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    display: block;
+  }
+  
+  .jogador p {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  footer {
+    background-color: #dddddd;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #333333;
+    border-top: 3px solid #000000;
+  }
+  
